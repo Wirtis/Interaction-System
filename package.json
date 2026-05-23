@@ -15,12 +15,5 @@
   },
   "changelogUrl": "https://example.com/changelog.html",
   "documentationUrl": "https://example.com/",
-  "licensesUrl": "https://example.com/licensing.html",
-  "samples": [
-    {
-      "displayName": "Example Sample",
-      "description": "Replace this string with your own description of the sample. Delete the Samples folder if not needed.",
-      "path": "Samples~/Example"
-    }
-  ]
+  "licensesUrl": "https://example.com/licensing.html"
 }
