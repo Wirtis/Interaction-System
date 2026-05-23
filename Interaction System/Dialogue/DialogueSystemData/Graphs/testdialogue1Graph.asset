@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: testdialogue1Graph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveDataSO
+  <FileName>k__BackingField: testdialogue1
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 65fe976d-f18c-49f5-84ba-c952c752515c
+    <Name>k__BackingField: testgr
+    <Position>k__BackingField: {x: 640, y: 210.99997}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 18d01959-065f-4da3-bbad-3ecdbabb4d48
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Suposed to be first
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 7c703869-c25d-4d62-88c2-de01661073e7
+    <GroupID>k__BackingField: 65fe976d-f18c-49f5-84ba-c952c752515c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 665, y: 294}
+  - <ID>k__BackingField: 7c703869-c25d-4d62-88c2-de01661073e7
+    <Name>k__BackingField: DialogueName1
+    <Text>k__BackingField: second
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: b318f6ba-f7df-4e56-aa18-eb1ce3121561
+    <GroupID>k__BackingField: 65fe976d-f18c-49f5-84ba-c952c752515c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1023, y: 294}
+  - <ID>k__BackingField: dec951db-e733-4c5f-a3f7-771d3ea15679
+    <Name>k__BackingField: DialogueName4
+    <Text>k__BackingField: choice 2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1792, y: 437}
+  - <ID>k__BackingField: 615b0948-fc76-467f-961c-460be7508012
+    <Name>k__BackingField: DialogueName3
+    <Text>k__BackingField: choice 1
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1792, y: 199}
+  - <ID>k__BackingField: b318f6ba-f7df-4e56-aa18-eb1ce3121561
+    <Name>k__BackingField: Dialogueschoices
+    <Text>k__BackingField: split dialogue
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice1
+      <NodeID>k__BackingField: 615b0948-fc76-467f-961c-460be7508012
+    - <Text>k__BackingField: New Choice2
+      <NodeID>k__BackingField: dec951db-e733-4c5f-a3f7-771d3ea15679
+    <GroupID>k__BackingField: 65fe976d-f18c-49f5-84ba-c952c752515c
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1350, y: 270}
+  <OldGroupNames>k__BackingField:
+  - testgr
+  <OldUngroupedNodeNames>k__BackingField:
+  - DialogueName4
+  - DialogueName3
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: testgr
+      Value:
+      - DialogueName
+      - DialogueName1
+      - Dialogueschoices

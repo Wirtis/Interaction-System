@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: 8097987978978Graph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveDataSO
+  <FileName>k__BackingField: 8097987978978
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 30da97eb-9537-48b6-9178-94be3536e514
+    <Name>k__BackingField: 67677667
+    <Text>k__BackingField: Dialogue text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 5810c0d2-bc35-4a7a-a89a-40627c9526c3
+      <Visible>k__BackingField: 1
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: e4b452d9-e3a0-4983-9c13-c8d17c48d0b0
+      <Visible>k__BackingField: 1
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+      <Visible>k__BackingField: 1
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 192, y: 149}
+  - <ID>k__BackingField: 5810c0d2-bc35-4a7a-a89a-40627c9526c3
+    <Name>k__BackingField: 787878
+    <Text>k__BackingField: Dialogue text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+      <Visible>k__BackingField: 1
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 569, y: 54}
+  - <ID>k__BackingField: e4b452d9-e3a0-4983-9c13-c8d17c48d0b0
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Dialogue text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+      <Visible>k__BackingField: 1
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 569, y: 370}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - 67677667
+  - 787878
+  - DialogueName
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
